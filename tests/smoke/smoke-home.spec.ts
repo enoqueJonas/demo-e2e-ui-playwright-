@@ -4,5 +4,5 @@ import { test, expect } from '@playwright/test';
 test('@smoke home loads and shows header', async ({ page }) => {
   await page.goto('/');
   // adjust selectors to your app’s DOM
-  await expect(page).toHaveTitle(/React App/i);
+  await expect(page).toHaveTitle(/Reac App/i);
 });
